@@ -48,11 +48,12 @@
 
 - [BOJ 2675](../master/src/boj_2675.python)
 
-    문자열 반복, for문 사용. print()으로 줄바꿈해줌
+    문자열 반복, for문 사용. print()으로 줄바꿈함
     
 - [BOJ 2751](../master/src/boj_2751.python)
 
     오름차순 정렬문제, sorted를 이용해 오름차순으로 정렬해줌
+    class 1 에센셜 완료! (～￣▽￣)～
     
 #### 21.04.19
 
