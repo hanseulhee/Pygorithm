@@ -1,9 +1,15 @@
-n1, n2 = input().split()
-n1 = int(n1)
-n2 = int(n2)
+a, b = map(int, input().split())
 
+def gcd(a, b):
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)
 
-def gcd(n1, n2):
-    while n2 > 0:
-        n1, n2 = n2, n1 % n2
-    return n1
+def lcm(a, b):
+    g = gcd(a, b)
+    return int(g*(a/g)*(b/g))
+
+print(gcd(a, b))
+
+print(lcm(a, b))
