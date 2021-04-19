@@ -21,7 +21,7 @@
     입력 도중 파일의 끝을 만나면 EOFError가 발생 > 반복문에서 나옴
     
  
-- [BOJ 11654](../master/src/boj_11654.python)
+- [BOJ 11654](../master/src/python/boj_11654.python)
 
     아스키코드 출력문제, ord(문자)와 chr(숫자) 함수로 해당하는 아스키코드를 출력함
     
