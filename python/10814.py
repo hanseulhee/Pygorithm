@@ -1,13 +1,12 @@
 n = int(input())
+l = []
 
-for i in range(n):
-    r, s = input().split()
-    m = list(int(r))
+for _ in range(n):
+    age, name = map(str, input().split())
+    age = int(age)
+    l.append((age, name))
 
+l.sort(key = lambda x: x[0])
 
-
-a = sorted(m)
-
-
-for j in a:
-    print(j)
+for x in l:
+    print(x[0], x[1])

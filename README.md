@@ -71,3 +71,13 @@
 - [BOJ 1181](../master/python/1181.py)
 
     단어 정렬문제, set으로 중복제거. sort로 사전순 정렬. len으로 길이 순으로 정렬함
+    
+#### 21.04.20
+
+- [BOJ 10989](../master/python/10989.py)
+    수 오름차순 정렬문제, 메모리 초과로 sys.stdin.readline()사용
+    
+- [BOJ 10814](../master/python/10814.py)    
+
+    2차원 배열 정렬, lambda는 쓰고 버리는 일시적인 함수로 필요한 곳에서 즉시 사용하고 버릴 수 있음
+
