@@ -96,4 +96,15 @@
     팰린드롬수, 리스트 슬라이싱 [시작인덱스 : 종료인덱스 : 진행값] 을 이용해 진행값에 -1을 써 거꾸로 진행되도록 함
     문자열도 가능함
     
-  
+#### 21.04.24
+
+- [BOJ 2798](../master/python/2798.py) 
+
+    블랙잭 문제, 삼중 for문 돌림  
+    
+- [BOJ 11050](../master/python/11050.py) 
+
+    이항계수 문제, math모듈의 factorial함수 사용 
+    [팩토리얼](https://shoark7.github.io/programming/algorithm/several-ways-to-solve-factorial-in-python)
+    
+        
