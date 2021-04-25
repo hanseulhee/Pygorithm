@@ -106,5 +106,12 @@
 
     이항계수 문제, math모듈의 factorial함수 사용 
     [팩토리얼](https://shoark7.github.io/programming/algorithm/several-ways-to-solve-factorial-in-python)
+ 
+#### 21.04.25
+
+- [BOJ 1920](../master/python/1920.py) 
+
+    시간초과, 출력초과 자꾸남 ㅠ Set 함수를 이용해 요소들의 포함 여부를 확인, 삼항연산자 사용
     
+    [시간복잡도](https://chancoding.tistory.com/43) [이진탐색/이분탐색](https://velog.io/@yeseolee/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Binary-Search%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89) [삼항연산자](https://ooyoung.tistory.com/116)
         
