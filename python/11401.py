@@ -21,3 +21,4 @@ for i in range(2, N+1):
 A = fact[N]
 B = (fact[N-K]*fact[K])%p
 print((A % p) * (power(B, p-2) % p) % p)
+
