@@ -132,8 +132,21 @@
 
 - [BOJ 1157](../master/python/1157.py)     
 
-    대소문자 구분없이 비교하는 문제, 소문자로 변경 lower(), 대문자로 변경 upper() if문으로 max값이 두개 이상인 경우 '?'출력하도록 함     
+    대소문자 구분없이 비교하는 문제, 소문자로 변경 lower(), 대문자로 변경 upper() 
+    if문으로 max값이 두개 이상인 경우 '?'을 출력하도록 함     
     
 - [BOJ 1546](../master/python/1546.py)
 
-    공식에 맞게 바꾸어 평균 값 구하는 문제, 빈 리스트에 append() 안해서 오류났지만 해결 ~~~    
+    공식에 맞게 바꾸어 평균 값 구하는 문제, 빈 리스트에 append() 안해서 오류났지만 해결 ~~~
+    
+- [BOJ 2164](../master/python/2164.py)
+
+    덱 사용, 덱은 가장자리에 원소를 넣거나 뺄 수 있어 popleft() 사용 [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) [Queue](https://yunaaaas.tistory.com/29)
+  
+- [BOJ 2475](../master/python/2475.py)
+    
+    검증수 문제, for문으로 리스트 값 각각의 제곱 값 구함
+         
+
+
+ 
