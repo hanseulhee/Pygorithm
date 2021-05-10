@@ -141,12 +141,15 @@
     
 - [BOJ 2164](../master/python/2164.py)
 
-    덱 사용, 덱은 가장자리에 원소를 넣거나 뺄 수 있어 popleft() 사용 [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque) [Queue](https://yunaaaas.tistory.com/29)
+    덱 사용, 덱은 가장자리에 원소를 넣거나 뺄 수 있어 popleft() 사용 
+    [collections.deque](https://docs.python.org/3/library/collections.html#collections.deque)  [Queue](https://yunaaaas.tistory.com/29)
   
 - [BOJ 2475](../master/python/2475.py)
     
     검증수 문제, for문으로 리스트 값 각각의 제곱 값 구함
          
+#### 21.05.10
 
+- [BOJ 2908](../master/python/2908.py)
 
- 
+    두 개의 숫자를 역순으로 바꾸어 더 큰 숫자 출력, [::-1] 연산자 이용
