@@ -195,3 +195,11 @@
    배운 점 
    - range 메소드는 list 객체를 반환한다는 점
    - sys.stdin.readlines: 모든 줄을 다 읽음, sys.stdin.readline: 한 줄만 읽음
+   
+#### 21.06.05
+
+- [BOJ 2750](../master/python/2750.py)
+
+    수 정렬하기 문제, sorted 써서 오름차순 정렬함 
+
+    
