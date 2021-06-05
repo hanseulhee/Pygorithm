@@ -200,6 +200,12 @@
 
 - [BOJ 2750](../master/python/2750.py)
 
-    수 정렬하기 문제, sorted 써서 오름차순 정렬함 
+    수 정렬하기 문제, sorted 써서 오름차순 정렬함
+    
+#### 21.06.06
+
+- [BOJ 1924](../master/python/1924.py)
+
+    calendar 모듈 사용, calendar 모듈의 weekday 메소드는 년도, 월, 일을 매개변수로 받아서 요일 정보를 리턴함
 
     
