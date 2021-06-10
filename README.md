@@ -207,5 +207,12 @@
 - [BOJ 1924](../master/python/1924.py)
 
     calendar 모듈 사용, calendar 모듈의 weekday 메소드는 년도, 월, 일을 매개변수로 받아서 요일 정보를 리턴함
+    
+#### 21.06.10
+
+- [BOJ 11650](../master/python/11650.py)
+
+    좌표 정렬하기 문제, sys.stdin.readline으로 입력받고 sorted로 정렬해줌, 리스트 인덱싱하기 .. !!!에러 읽기!!!
+    [list append()와 extend()](https://m.blog.naver.com/wideeyed/221541104629) 
 
     
