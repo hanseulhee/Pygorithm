@@ -230,3 +230,8 @@
     
     datetime 모듈은 year(년), month(월), day(일), hour(시),  minute(분), second(초)의 정보를 가지고 있음
 
+- [BOJ 10872](../master/python/10872.py)
+
+    팩토리얼 문제, 우연히 발견한 쉬운 문제. 이정도 문제만 풀고싶다 ㅋㅋ 힝
+    
+      
