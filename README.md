@@ -213,6 +213,11 @@
 - [BOJ 11650](../master/python/11650.py)
 
     좌표 정렬하기 문제, sys.stdin.readline으로 입력받고 sorted로 정렬해줌, 리스트 인덱싱하기 .. !!!에러 읽기!!!
+    
     [list append()와 extend()](https://m.blog.naver.com/wideeyed/221541104629) 
 
-    
+#### 21.06.12
+
+- [BOJ 9012](../master/python/9012.py)
+
+    괄호문제, 여는 괄호와 닫는 괄호의 개수가 같아야만 'YES'를 출력해야 하므로 괄호를 문자열로 받아 리스트에 저장하고, SUM이 0일 경우 'YES'를 출력하게 하였음    
