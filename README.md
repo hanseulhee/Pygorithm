@@ -1,5 +1,6 @@
 ## Problem Solving with Python
 
+[Coding Test](./CodingTest/README.md)
 
 
 #### 21.04.15
@@ -432,4 +433,4 @@
 
 - [BOJ 11718](../master/python/11718.py)
 
-    그대로 출력하기 문제, 헤나 알려주면서 같이 풀어봤다. 헤나는 거들어보지도 않았다.
+    그대로 출력하기 문제
