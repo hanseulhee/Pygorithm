@@ -119,3 +119,11 @@ sorted(list)
 <b>입출력 속도</b>
 
 sys.stdin.readline > raw_input > input
+
+
+#### 22.06.11
+
+- [BOJ 11721](./python/11721.py)
+
+문자열 끊어서 출력하는 문제, <b>range(start, end, step)</b>를 이용해 10개씩 끊었다. <b>a[start:원하는 종료값 + 1]</b>로 작성하여 처음에 0부터 9까지 끊어지면 다음번엔 10부터 19까지 끊어지도록 하였다.
+
