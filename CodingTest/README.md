@@ -120,10 +120,26 @@ sorted(list)
 
 sys.stdin.readline > raw_input > input
 
-
 #### 22.06.11
 
 - [BOJ 11721](./python/11721.py)
 
 문자열 끊어서 출력하는 문제, <b>range(start, end, step)</b>를 이용해 10개씩 끊었다. <b>a[start:원하는 종료값 + 1]</b>로 작성하여 처음에 0부터 9까지 끊어지면 다음번엔 10부터 19까지 끊어지도록 하였다.
 
+#### 22.06.13
+
+- [BOJ 10845](./python/10845.py)
+
+큐 문제, append는 새로운 요소를 배열 맨 끝에 추가한다. insert는
+
+```
+array.insert(i, x)
+```
+
+이와 같은 형태로 원하는 위치 i 앞에 x라는 값을 삽입한다.
+
+큐는 FIFO(First-In-First-Out) 선입선출 구조이기 때문에 insert를 사용하였다.
+
+<b>stack VS queue</b>
+
+stack은 삽입과 삭제가 한 쪽에서 일어나지만 queue는 삽입과 삭제가 다른 쪽에서 일어난다.
