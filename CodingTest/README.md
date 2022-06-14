@@ -132,7 +132,7 @@ sys.stdin.readline > raw_input > input
 
 큐 문제, append는 새로운 요소를 배열 맨 끝에 추가한다. insert는
 
-```
+```python
 array.insert(i, x)
 ```
 
@@ -143,3 +143,9 @@ array.insert(i, x)
 <b>stack VS queue</b>
 
 stack은 삽입과 삭제가 한 쪽에서 일어나지만 queue는 삽입과 삭제가 다른 쪽에서 일어난다.
+
+#### 22.06.14
+
+- [BOJ 10866](./python/10866.py)
+
+덱 문제, 덱은 양쪽에서 모두 입출력이 가능하여 스택과 큐에 비해 자유도가 높다.
