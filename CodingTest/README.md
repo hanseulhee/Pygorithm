@@ -177,3 +177,36 @@ for j in countCard:
 - [BOJ 11866](./python/11866.py)
 
 (N, K)-요세푸스 순열을 구하는 문제, 큐로 풀 수 있었다. popleft()함수를 이용하여 K-1 만큼 왼쪽으로 원형을 돌며 값을 출력하였고 사람들이 모두 제거될 때까지 반복하였다.
+
+- [BOJ 1018](./python/1018.py)
+
+체스판 다시 칠하기 문제, 이러한 문제를 <b>브루트포스</b>라 하는데 모든 경우의 수를 탐색함으로써 원하는 결과를 도출하는 문제를 의미한다.
+
+4중 for문을 이용하여 풀었다.
+
+```python
+for i in range(N-7):  # 행
+    for j in range(M-7):  # 열
+        WCount = 0  # W
+        BCount = 0  # B
+```
+
+8*8로 맞춰야 하므로 행과 열을 -7로 하여 고정시켰다.
+
+
+```python
+for row in range(i, i+8):
+    for column in range(j, j+8):
+        if(row + column) % 2 == 0:
+            if array[row][column] != "W":
+                WCount += 1
+            if array[row][column] != "B":
+                BCount += 1
+        else:
+            if array[row][column] != "B":
+                WCount += 1
+            if array[row][column] != "W":
+                BCount += 1
+```
+
+행과 열의 합이 짝수라면 시작점의 색깔과 같고, 홀수라면 달라야 해 이를 조건문으로 확인 후 count에 1을 더해주었다.
