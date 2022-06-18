@@ -149,3 +149,27 @@ stack은 삽입과 삭제가 한 쪽에서 일어나지만 queue는 삽입과 �
 - [BOJ 10866](./python/10866.py)
 
 덱 문제, 덱은 양쪽에서 모두 입출력이 가능하여 스택과 큐에 비해 자유도가 높다.
+
+#### 22.06.18
+
+- [BOJ 10816](./python/10816.py)
+
+숫자 카드 2 문제,
+
+```python
+count = {}
+
+for i in numCard:
+    if(i in count):
+        count[i] += 1
+    else:
+        count[i] = 1
+
+for j in countCard:
+    if j in count:
+        print(count[j], end=" ") # 존재하는 숫자라면
+    else:
+        print(0, end=" ") # 존재하지 않는 숫자라면 0을 출력한다.
+```
+
+빈 딕셔너리를 생성하여 데이터를 추가할 수 있도록 하였고 key 값을 찾아 value를 출력하고 key가 countCard에 없는 값이라면 0을 출력하도록 하였다.
