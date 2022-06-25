@@ -1,11 +1,8 @@
-from pickle import TRUE
-
-
 n = int(input())
 stack = []
 result = []
 count = 1
-temp = TRUE
+temp = True
 
 for _ in range(n):
     num = int(input())
