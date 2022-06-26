@@ -242,3 +242,9 @@ for row in range(i, i+8):
 - [BOJ 11651](./python/11651.py)
 
 좌표 정렬하기 2 문제, y를 기준으로 오름차순 정렬이 되야하므로 [y, x] 형태로 배열에 append 하였다.
+
+#### 22.06.27
+
+- [BOJ 1463](./python/1463.py)
+
+전의 결과를 다음 결과에 이용하는 DP문제(다이나믹 프로그래밍), min 함수는 min(iterable1, iterable2)일 경우 iterable1 과 iterable2 중 더 작은걸 반환한다.
