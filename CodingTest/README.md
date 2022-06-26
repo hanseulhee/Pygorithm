@@ -248,3 +248,11 @@ for row in range(i, i+8):
 - [BOJ 1463](./python/1463.py)
 
 전의 결과를 다음 결과에 이용하는 DP문제(다이나믹 프로그래밍), min 함수는 min(iterable1, iterable2)일 경우 iterable1 과 iterable2 중 더 작은걸 반환한다.
+
+- [BOJ 9095](./python/9095.py)
+
+DP문제, i가 3보다 크면 dp[i] = dp[i-1]+dp[i-2]+dp[i-3] 규칙이 있다는 것을 이용해 풀었다.
+
+- [BOJ 11047](./python/11047.py)
+
+얼마를 모으기 위해 필요한 동전 개수의 최솟값을 구하는 문제, 내림차순으로 정렬하여 k가 0이 되면 반환하도록 하였다.
