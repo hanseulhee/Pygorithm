@@ -112,3 +112,18 @@ len(변수명)
 
 </div>
 </details>
+
+<details>
+<summary>연산자</summary>
+<div>
+
+**or 연산자**
+
+파이썬에서 or 연산자는 **or**
+
+```python
+if (a == b or c == a):
+```
+
+</div>
+</details>
