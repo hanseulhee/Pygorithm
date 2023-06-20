@@ -117,12 +117,33 @@ len(변수명)
 <summary>연산자</summary>
 <div>
 
+**나누기 연산자**
+
+몫
+//
+
+나머지
+%
+
 **or 연산자**
 
 파이썬에서 or 연산자는 **or**
 
 ```python
 if (a == b or c == a):
+```
+
+</div>
+</details>
+
+<details>
+<summary>리스트</summary>
+<div>
+
+비어있는 리스트
+
+```python
+empty = list()
 ```
 
 </div>
