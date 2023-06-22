@@ -148,3 +148,16 @@ empty = list()
 
 </div>
 </details>
+
+<details>
+<summary>정렬</summary>
+<div>
+
+default가 오름차순, (reverse=True)를 붙이면 내림차순이다.
+
+```python
+list.sort(reverse=True)
+```
+
+</div>
+</details>
