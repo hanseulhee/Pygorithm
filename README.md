@@ -4,6 +4,8 @@
 
 [Coding Test](./CodingTest/README.md)
 
+> 최적화도 중요하지만 막힌다면 문제를 풀 때 한줄한줄 순서대로 생각해라
+
 #### 21.04.15
 
 - [BOJ 10951](../master/python/10951.py)

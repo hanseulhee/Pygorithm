@@ -161,3 +161,14 @@ list.sort(reverse=True)
 
 </div>
 </details>
+
+<details>
+<summary>set</summary>
+<div>
+
+set()은 집합에 관련된 것을 쉽게 처리하기 위해 만든 자료형이다.
+
+set은 중복을 허용하지 않고 순서가 없다.
+
+</div>
+</details>
